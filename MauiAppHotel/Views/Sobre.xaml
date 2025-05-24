@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             BackgroundColor="{StaticResource Gray100}">
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label 
+            Text="Sobre o Aplicativo"
+            HorizontalOptions="Center"
+            FontSize="24"
+            FontFamily="Montserrat-Bold"
+            TextColor="DarkBlue"/>
+
+        <Label Text="Desenvolvedor"
+               HorizontalOptions="Center"
+               FontSize="20"
+               FontFamily="Montserrat"
+               TextColor="Black" />
+
+        <Image Source="imagem1_pfp.jpg"
+               HeightRequest="200"
+               WidthRequest="250"/>
+
+        <Label Text="Pedro Henrique Bettega Trama"
+               HorizontalOptions="Center"
+               FontSize="16"
+               FontFamily="Montserrat"
+               TextColor="Black" />
+
+        <Label Text="Desenvolvido em Maio de 2025"
+               HorizontalOptions="Center"
+               Padding="20"
+               FontSize="18"
+               FontFamily="Montserrat-Bold"
+               TextColor="DarkBlue" />
+
+        <Button x:Name="btnVoltar"
+                Text="Voltar"
+                Padding="15"
+                BackgroundColor="DarkBlue"
+                TextColor="White"
+                HorizontalOptions="Center"
+                Clicked="btnVoltar_Clicked" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

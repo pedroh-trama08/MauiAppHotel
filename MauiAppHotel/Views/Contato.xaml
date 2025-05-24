@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Contato"
+             BackgroundColor="{StaticResource Gray100}">
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label 
+            Text="Entre em contato" 
+            HorizontalOptions="Center"
+            FontSize="24"
+            FontFamily="Montserrat-Bold"
+            TextColor="DarkBlue"/>
+
+        <Image Source="contato.png"
+               Aspect="AspectFit"
+               WidthRequest="250"
+               HeightRequest="200"/>
+
+        <Label Text="Email: "
+               HorizontalOptions="Center"
+               FontSize="20"
+               FontFamily="Montserrat-Bold" />
+
+        <Label Text="pedro.trama@etec.sp.gov.br"
+               HorizontalOptions="Center"
+               FontSize="16"
+               FontFamily="Montserrat"/>
+
+        <Label Text="WhatsApp: "
+               Padding="15"
+               HorizontalOptions="Center"
+               FontSize="20"
+               FontFamily="Montserrat-Bold" />
+
+        <Label Text="(11)96610-3576"
+               HorizontalOptions="Center"
+               FontSize="16"
+               FontFamily="Montserrat" />
+
+        <Button x:Name="btnVoltar1"
+                Text="Voltar"
+                Margin="10"
+                BackgroundColor="DarkBlue"
+                TextColor="White"
+                HorizontalOptions="Center"
+                Clicked="btnVoltar1_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
