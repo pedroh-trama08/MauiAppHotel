@@ -27,7 +27,6 @@
                FontFamily="Montserrat"/>
 
         <Label Text="WhatsApp: "
-               Padding="15"
                HorizontalOptions="Center"
                FontSize="20"
                FontFamily="Montserrat-Bold" />
